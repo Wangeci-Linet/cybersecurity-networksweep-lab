@@ -77,7 +77,8 @@ sudo chmod 750 /home/shared/security/testsweep.sh
 
 ---
 
-‎## :mag: Key Observations/Lessons Learned
+## :mag: Key Observations/Lessons Learned 
+
 1. ‎**Defense in Depth:** Combining group-based access control with file permissions creates multiple layers of security.
 2. ‎**Automation Benefits:** Scripted sweeps reduce human error and provide consistent, repeatable results.
 3. ‎**Logging Importance:** Timestamped records enable forensic analysis and trend detection.
