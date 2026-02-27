@@ -52,4 +52,26 @@ Develop a secure network sweep lab to detect unauthorized devices following a BY
 
 ![Script Testing](screenshots/results.png)
 
+---
+
+## :desktop_computer: Commands Executed
+
+### Group and User Creation
+```bash
+sudo groupadd security
+sudo useradd -m -G security alice_sec
+sudo useradd -m -G security bob_sec
+sudo useradd -m -G security carol_sec
+```
+
+### Permission Setup
+```bash
+sudo chown root:security /home/shared/security/testsweep.sh
+sudo chmod 750 /home/shared/security/testsweep.sh
+```
+
+### Script Execution
+```bash
+./testsweep.sh 10.0.2
+```
 
