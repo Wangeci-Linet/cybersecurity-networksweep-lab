@@ -1,4 +1,4 @@
-# Cybersecurity Network Sweep Lab
+it# Cybersecurity Network Sweep Lab
 
 ---
 
@@ -75,3 +75,11 @@ sudo chmod 750 /home/shared/security/testsweep.sh
 ./testsweep.sh 10.0.2
 ```
 
+---
+
+‎## :mag: Key Observations/Lessons Learned
+1. ‎**Defense in Depth:** Combining group-based access control with file permissions creates multiple layers of security.
+2. ‎**Automation Benefits:** Scripted sweeps reduce human error and provide consistent, repeatable results.
+3. ‎**Logging Importance:** Timestamped records enable forensic analysis and trend detection.
+4. ‎**Least Privilege:** Restricting execution to security team members prevents unauthorized reconnaissance.
+5. ‎**BYOD Risks:** The lab highlighted the critical need for detecting unauthorized devices to maintain network security.
