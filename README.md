@@ -1,4 +1,4 @@
-it# Cybersecurity Network Sweep Lab
+# Cybersecurity Network Sweep Lab
 
 ---
 
